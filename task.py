@@ -24,15 +24,6 @@ def delete_task(tasks, title):
         return
     print(f"No task found with title '{title}'.")
     
-
-
-# def task_done(tasks, title):
-#     for task in tasks:
-#         if task["title"].lower() == title.lower():
-#             task["status"] = "done"
-#             print(f"task , {title} marked as done. ")
-#             return
-#     print(f"task , {title} not found. ")
     
 def mark_task_done(tasks, title):
     for task in tasks:
